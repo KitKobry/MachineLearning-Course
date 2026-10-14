@@ -1,0 +1,20 @@
+Task 7:
+
+Batch size: 32
+Number of runs: 100
+Statistic: Median
+
+Width = 16
+Forward: 0.0885 ms
+Backward: 0.1068 ms
+Backward / Forward: 1.21x
+
+Width = 64
+Forward: 0.1258 ms
+Backward: 0.1702 ms
+Backward / Forward: 1.35x
+
+Conclusion:
+Backward propagation was slower than forward propagation
+for both network widths. The wider network required more
+computation because of larger matrix multiplications.
