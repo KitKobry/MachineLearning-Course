@@ -1,0 +1,3 @@
+experiment,accuracy,f1,train_rows,test_rows,feature_count_before_encoding
+without_derived_features,0.8539548215382515,0.6601016518424396,34165,14653,14
+with_derived_features,0.8577765645260357,0.6696258719086874,34165,14653,16

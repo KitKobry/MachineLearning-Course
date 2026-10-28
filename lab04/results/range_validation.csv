@@ -1,0 +1,5 @@
+column,minimum_allowed,maximum_allowed,violations
+age,17,90,0
+hours-per-week,1,99,0
+capital-gain,0,99999,0
+capital-loss,0,4356,0

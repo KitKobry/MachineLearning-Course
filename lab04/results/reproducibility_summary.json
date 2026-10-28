@@ -1,0 +1,10 @@
+{
+  "train_rows": 34165,
+  "test_rows": 14653,
+  "train_columns": 15,
+  "test_columns": 15,
+  "hashes": {
+    "train_processed.csv": "a4cab840b4cfd74c8cd9ca184701dd62ed92ee3a9dbd7b5ea97fc451781a2aba",
+    "test_processed.csv": "e628b81f54484e5d3fbc60582103a38ac30337d9a499f4e53a70dc6b1c85d4f1"
+  }
+}
