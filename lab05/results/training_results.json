@@ -1,0 +1,13 @@
+{
+    "dataset": "make_moons",
+    "samples": 200,
+    "features": 2,
+    "classes": 2,
+    "architecture": "2-8-1",
+    "parameters": 33,
+    "epochs": 150,
+    "learning_rate": 0.05,
+    "final_loss": 0.3617855198060629,
+    "training_accuracy": 0.84,
+    "training_accuracy_percent": 84.0
+}

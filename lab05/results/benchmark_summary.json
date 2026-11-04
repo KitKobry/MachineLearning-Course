@@ -1,0 +1,6 @@
+{
+    "runs": 5,
+    "custom_engine_median_seconds": 59.718220800044946,
+    "pytorch_median_seconds": 0.24093109997920692,
+    "pytorch_speedup": 247.86430977652452
+}

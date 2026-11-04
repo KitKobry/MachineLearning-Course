@@ -1,2 +1,4 @@
 .venv/
 lab03/data/
+__pycache__/
+*.py[cod]

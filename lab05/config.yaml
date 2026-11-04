@@ -1,0 +1,44 @@
+project:
+  name: "Lab 5 - Automatic Differentiation"
+  framework: "Custom Autograd and PyTorch"
+  python_version: "3.11"
+
+dataset:
+  name: "make_moons"
+  samples: 200
+  noise: 0.1
+  random_state: 42
+
+model:
+  architecture: [2, 8, 1]
+  hidden_activation: "ReLU"
+  output_activation: "Sigmoid"
+  loss: "Binary Cross Entropy"
+  parameters: 33
+
+training:
+  epochs: 150
+  learning_rate: 0.05
+  optimizer: "Gradient Descent"
+
+gradient_verification:
+  tolerance: 0.000001
+  maximum_absolute_difference: 0.000000003913783
+
+benchmark:
+  runs: 5
+  custom_engine_median_seconds: 59.7182208
+  pytorch_median_seconds: 0.2409311
+  pytorch_speedup: 247.8643
+
+execution:
+  device: "CPU"
+  pytorch_version: "2.3.1+cpu"
+  eager_median_ms: 0.1148
+  traced_median_ms: 0.1047
+  traced_speedup: 1.097
+
+tensor_layout:
+  contiguous_median_ms: 0.0985
+  non_contiguous_median_ms: 0.1738
+  non_contiguous_slowdown: 1.7645

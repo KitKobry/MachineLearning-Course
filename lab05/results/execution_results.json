@@ -1,0 +1,38 @@
+{
+    "pytorch_version": "2.3.1+cpu",
+    "device": "CPU",
+    "execution_modes": {
+        "eager_median_ms": 0.11477600084617734,
+        "traced_median_ms": 0.10467100073583424,
+        "traced_speedup": 1.0965405894594034
+    },
+    "tensor_layout": {
+        "contiguous": {
+            "shape": [
+                1024,
+                64
+            ],
+            "dtype": "torch.float32",
+            "is_contiguous": true,
+            "stride": [
+                64,
+                1
+            ],
+            "median_ms": 0.09854100015945733
+        },
+        "non_contiguous": {
+            "shape": [
+                1024,
+                64
+            ],
+            "dtype": "torch.float32",
+            "is_contiguous": false,
+            "stride": [
+                128,
+                2
+            ],
+            "median_ms": 0.17377180000767112
+        },
+        "non_contiguous_slowdown": 1.7634466843900165
+    }
+}
