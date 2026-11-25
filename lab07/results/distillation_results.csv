@@ -1,0 +1,3 @@
+model,accuracy,parameters,state_bytes,checkpoint_bytes,latency_ms_per_image
+student_plain,0.9014,118394,473576,477388,0.25822990624874365
+student_distilled,0.9,118394,473576,477444,0.5357111406237891

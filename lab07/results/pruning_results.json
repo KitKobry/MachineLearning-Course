@@ -1,0 +1,152 @@
+[
+  {
+    "kind": "global",
+    "target_sparsity": 0.0,
+    "actual_sparsity": 0.0,
+    "accuracy": 0.9113,
+    "parameters": 1146890,
+    "dense_state_bytes": 4587560,
+    "sparse_file_bytes": 24410177,
+    "latency_ms_per_image": 0.8637062187517586
+  },
+  {
+    "kind": "global",
+    "target_sparsity": 0.25,
+    "actual_sparsity": 0.25,
+    "accuracy": 0.9189,
+    "parameters": 1146890,
+    "dense_state_bytes": 4587560,
+    "sparse_file_bytes": 18638804,
+    "latency_ms_per_image": 0.8681908749986178
+  },
+  {
+    "kind": "global",
+    "target_sparsity": 0.5,
+    "actual_sparsity": 0.5,
+    "accuracy": 0.9133,
+    "parameters": 1146890,
+    "dense_state_bytes": 4587560,
+    "sparse_file_bytes": 12783828,
+    "latency_ms_per_image": 0.48669304687791737
+  },
+  {
+    "kind": "global",
+    "target_sparsity": 0.75,
+    "actual_sparsity": 0.75,
+    "accuracy": 0.9129,
+    "parameters": 1146890,
+    "dense_state_bytes": 4587560,
+    "sparse_file_bytes": 6725012,
+    "latency_ms_per_image": 1.2814332500011005
+  },
+  {
+    "kind": "global",
+    "target_sparsity": 0.9,
+    "actual_sparsity": 0.9000003489962867,
+    "accuracy": 0.9213,
+    "parameters": 1146890,
+    "dense_state_bytes": 4587560,
+    "sparse_file_bytes": 2928596,
+    "latency_ms_per_image": 1.2713550468743051
+  },
+  {
+    "kind": "global",
+    "target_sparsity": 0.95,
+    "actual_sparsity": 0.9500001744981433,
+    "accuracy": 0.9223,
+    "parameters": 1146890,
+    "dense_state_bytes": 4587560,
+    "sparse_file_bytes": 1566868,
+    "latency_ms_per_image": 1.2143745000003037
+  },
+  {
+    "kind": "layerwise",
+    "target_sparsity": 0.0,
+    "actual_sparsity": 0.0,
+    "accuracy": 0.9113,
+    "parameters": 1146890,
+    "dense_state_bytes": 4587560,
+    "sparse_file_bytes": 24410234,
+    "latency_ms_per_image": 0.9481588593780543
+  },
+  {
+    "kind": "layerwise",
+    "target_sparsity": 0.25,
+    "actual_sparsity": 0.25,
+    "accuracy": 0.9173,
+    "parameters": 1146890,
+    "dense_state_bytes": 4587560,
+    "sparse_file_bytes": 18309709,
+    "latency_ms_per_image": 1.0601451874981649
+  },
+  {
+    "kind": "layerwise",
+    "target_sparsity": 0.5,
+    "actual_sparsity": 0.5,
+    "accuracy": 0.9187,
+    "parameters": 1146890,
+    "dense_state_bytes": 4587560,
+    "sparse_file_bytes": 12209229,
+    "latency_ms_per_image": 1.0171916562512706
+  },
+  {
+    "kind": "layerwise",
+    "target_sparsity": 0.75,
+    "actual_sparsity": 0.75,
+    "accuracy": 0.9136,
+    "parameters": 1146890,
+    "dense_state_bytes": 4587560,
+    "sparse_file_bytes": 6108685,
+    "latency_ms_per_image": 1.9695194218775216
+  },
+  {
+    "kind": "layerwise",
+    "target_sparsity": 0.9,
+    "actual_sparsity": 0.89999947650557,
+    "accuracy": 0.894,
+    "parameters": 1146890,
+    "dense_state_bytes": 4587560,
+    "sparse_file_bytes": 2448141,
+    "latency_ms_per_image": 1.9516934218745519
+  },
+  {
+    "kind": "layerwise",
+    "target_sparsity": 0.95,
+    "actual_sparsity": 0.9500001744981433,
+    "accuracy": 0.8573,
+    "parameters": 1146890,
+    "dense_state_bytes": 4587560,
+    "sparse_file_bytes": 1228237,
+    "latency_ms_per_image": 1.1634812812508244
+  },
+  {
+    "kind": "structured",
+    "target_sparsity": 0.1,
+    "actual_sparsity": 0.0,
+    "accuracy": 0.9148,
+    "parameters": 1023353,
+    "dense_state_bytes": 4093412,
+    "sparse_file_bytes": "",
+    "latency_ms_per_image": 0.8255374218788347
+  },
+  {
+    "kind": "structured",
+    "target_sparsity": 0.25,
+    "actual_sparsity": 0.0,
+    "accuracy": 0.9159,
+    "parameters": 844298,
+    "dense_state_bytes": 3377192,
+    "sparse_file_bytes": "",
+    "latency_ms_per_image": 0.4150928125000064
+  },
+  {
+    "kind": "structured",
+    "target_sparsity": 0.5,
+    "actual_sparsity": 0.0,
+    "accuracy": 0.9172,
+    "parameters": 553226,
+    "dense_state_bytes": 2212904,
+    "sparse_file_bytes": "",
+    "latency_ms_per_image": 0.2847343749999709
+  }
+]
