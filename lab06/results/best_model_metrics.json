@@ -1,0 +1,45 @@
+{
+  "architecture": "cnn",
+  "parameters": 20490,
+  "test": {
+    "loss": 0.29256936931610106,
+    "accuracy": 0.8989
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.5355004869417711,
+      "val_loss": 0.4267023028612137,
+      "val_accuracy": 0.851,
+      "lr": 0.001
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.3449640401016582,
+      "val_loss": 0.3411357690572739,
+      "val_accuracy": 0.8764,
+      "lr": 0.001
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.3004431546514684,
+      "val_loss": 0.3357974956393242,
+      "val_accuracy": 0.882,
+      "lr": 0.001
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.278261899284883,
+      "val_loss": 0.30209631425142286,
+      "val_accuracy": 0.8906,
+      "lr": 0.001
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.262031658337333,
+      "val_loss": 0.28831425893306734,
+      "val_accuracy": 0.8952,
+      "lr": 0.001
+    }
+  ]
+}
